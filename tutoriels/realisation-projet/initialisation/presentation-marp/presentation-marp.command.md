@@ -1,0 +1,4 @@
+## commandes exécutées
+
+ - mkdir presentations
+  
