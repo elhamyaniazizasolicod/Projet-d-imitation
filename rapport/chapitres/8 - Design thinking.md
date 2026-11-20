@@ -1,6 +1,6 @@
 # Design thinking
 
-Ainsi, l’adoption de la méthode Scrum a permis d’assurer une organisation efficace du travail et une meilleure gestion du projet. Elle a contribué à améliorer la qualité des fonctionnalités développées et à garantir un déroulement structuré du projet ImmoSync.
+L’adoption de la méthode Scrum a permis d’assurer une organisation efficace du travail et une meilleure gestion du projet. Elle a contribué à améliorer la qualité des fonctionnalités développées et à garantir un déroulement structuré du projet Blog des Lauréats.
 
 ## Design thinking
 
@@ -27,4 +27,4 @@ Le processus du Design Thinking se compose de plusieurs étapes essentielles :
 - **Prototype** : elle consiste à créer une version simplifiée de la solution proposée (maquette, interface ou modèle) afin de tester rapidement les idées.
 - **Test** : cette dernière étape permet de tester le prototype auprès des utilisateurs, de recueillir leurs retours et d’améliorer la solution en fonction des résultats obtenus.
 
-Le Design Thinking est donc une méthode structurée et flexible qui permet de transformer une idée en solution concrète en mettant toujours l’utilisateur au centre du processus.
+Le Design Thinking est donc une méthode structurée et flexible qui permet de transformer une idée en solution concrète en mettant toujours l’utilisateur au centre du processus. Appliqué au Blog des Lauréats, il aide à concevoir une consultation d’articles simple et lisible pour les apprenants de Solicode Tanger, et une rédaction confortable pour les lauréats.

@@ -14,7 +14,6 @@
 13-branch_tecnique.md
 14-Stack technologique.md
 15-architecture_du_system.md
-16-Prototype (fonctionnalités, classes).md
 17-Conception.md
 18-Diagramme de classes.md
 19-Maquettes.md
