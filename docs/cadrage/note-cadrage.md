@@ -1,67 +1,73 @@
-# Note de Cadrage : Blog des Lauréats
+# Note de Cadrage — Blog des Lauréats
 
-> **Projet :** Blog des Lauréats (EFP) | **Phase :** Sprint 0 | **Livrable :** Note de cadrage synthétique
+**Projet :** Blog des Lauréats  
+**Établissement :** Solicode Tanger  
+**Référent pédagogique :** ESSARRAJ Fouad  
+**Product Owner :** Groupe 1
 
----
+## 1. Contexte et Enjeux
 
-## 1. Contexte & Mission Institutionnelle
+Le Blog des Lauréats est une plateforme web destinée à valoriser les parcours professionnels des anciens apprenants de Solicode.
 
-- **Contexte EFP :** Absence d'espace centralisé pour capitaliser et partager les retours d'expérience des anciens stagiaires avec les apprenants actuels.
-- **Mission :** Déployer une plateforme institutionnelle pour valoriser les réussites des lauréats et guider les apprenants dans leur insertion.
+Elle permettra de centraliser les témoignages, les expériences et les réalisations des lauréats afin de faciliter le partage de connaissances entre les différentes promotions et de renforcer la visibilité de la communauté.
 
----
+## 2. Objectif Stratégique SMART
 
-## 2. Objectifs SMART
+Concevoir et développer une plateforme web responsive permettant aux lauréats de partager leurs expériences professionnelles, aux visiteurs de consulter les articles et les profils, et aux administrateurs de gérer et modérer les publications.
 
-- **Spécifique (S) :** Plateforme web pour rédiger, modérer et consulter des articles professionnels de lauréats.
-- **Mesurable (M) :**
-  - $\ge$ 15 articles de référence publiés au lancement.
-  - Temps de chargement < 500 ms.
-  - Interface 100% responsive (mobile, tablette, desktop).
-- **Atteignable (A) :** 2 sprints Scrum courts (80h/sprint) avec tranches fonctionnelles testées de bout en bout.
-- **Réaliste (R) :** Stack maîtrisée : **Laravel, MySQL, Blade, Tailwind CSS, Alpine.js**.
-- **Temporel (T) :**
-  - **Sprint 0 :** Cadrage, maquettage et socle technique.
-  - **Sprint 1 :** Authentification, CRUD articles et espace de modération.
+- **Spécifique :** proposer des espaces de consultation, de contribution et d'administration.
+- **Mesurable :** valider les fonctionnalités à travers des tests et des critères d'acceptation.
+- **Atteignable :** organiser le développement en sprints Scrum.
+- **Réaliste :** utiliser Laravel, MySQL, Blade, Tailwind CSS, Preline UI et Alpine.js.
+- **Temporel :** livrer le MVP à la fin du cycle de développement prévu.
 
----
+## 3. Périmètre du Projet
 
-## 3. Matrice de Périmètre (MVP)
+### In-Scope — Fonctionnalités incluses
 
-| In-Scope (Inclus) | Out-of-Scope (Exclu) |
-| :--- | :--- |
-| Consultation des articles par catégorie | Messagerie instantanée en direct (Live chat) |
-| Recherche textuelle d'articles | Paiement et monétisation en ligne |
-| Espace d'administration & modération | Réseau social complexe (followers, feed algorithmique) |
-| Authentification sécurisée | Application mobile native (iOS / Android) |
-| Gestion des statuts (*Brouillon*, *En attente*, *Publié*, *Rejeté*) | |
-| Profils des lauréats (bio, parcours, liens pro) | |
+- Consultation et recherche des articles.
+- Filtrage par catégories.
+- Consultation des profils des lauréats.
+- Authentification et gestion des profils.
+- Création, modification et soumission des articles.
+- Administration des utilisateurs, catégories et publications.
+- Modération et gestion des statuts des articles.
 
----
+### Out-of-Scope — Fonctionnalités exclues
+
+- Messagerie instantanée.
+- Paiement et abonnements en ligne.
+- Applications mobiles natives.
+- Réseau social complexe.
+- Recommandations par intelligence artificielle.
+- Synchronisation avec des plateformes externes.
+
+Toute modification du périmètre devra être validée par le Product Owner.
 
 ## 4. Parties Prenantes
 
-- **Product Owner (Groupe 1) :** Définition de la vision produit et validation des livrables de sprint.
-- **Développeurs :** Conception technique, développement, tests et intégration.
-- **Formateurs Référents (Lead Trainers) :** Encadrement méthodologique, revues de code et validation d'architecture.
-- **Visiteurs Publics & Apprenants :** Consultation des contenus, recherche et exploitation des retours d'expérience.
+- **Product Owner — Groupe 1 :** recueillir les besoins, définir les priorités et valider les fonctionnalités.
+- **Équipe de développement :** concevoir, développer et tester la plateforme.
+- **Visiteurs :** consulter les articles et découvrir les lauréats.
+- **Lauréats contributeurs :** partager leurs parcours et leurs expériences professionnelles.
 
----
+## 5. Contraintes et Facteurs Clés de Succès
 
-## 5. Risques & Stratégies d'Atténuation
+**Contraintes techniques :** Laravel, MySQL, Blade, Tailwind CSS, Preline UI et Alpine.js.
 
-| Risque Identifié | Impact | Stratégie d'Atténuation |
-| :--- | :---: | :--- |
-| **Disponibilité du contenu** (Retard de rédaction des lauréats) | Élevé | Fourniture de templates d'articles et injection de données témoins (*seeders*) dès le Sprint 0. |
-| **Respect des délais de sprint** (Dépassement du planning Scrum) | Élevé | Découpage en User Stories indépendantes, priorisation MoSCoW (*Must Have*) et Daily Stand-ups. |
+**Contraintes organisationnelles :** respect des sprints, des priorités et des délais de validation.
 
----
+**Contraintes réglementaires :** protection des données personnelles conformément à la loi marocaine 09-08 et aux obligations applicables.
 
-## 6. Contraintes d'Accessibilité & Ergonomie
+**Accessibilité :** interface responsive, navigation au clavier, contrastes adaptés et HTML sémantique, en référence aux WCAG 2.2.
 
-- **Contraste visuel :** Respect strict des règles de contraste (normes WCAG niveau AA).
-- **Mobile-first :** Ergonomie assurant une lisibilité et navigation exemplaires sur smartphones.
-- **Sémantique :** Balisage HTML5 sémantique garantissant le bon fonctionnement des lecteurs d'écran.
+**Facteurs clés de succès :** simplicité d'utilisation, qualité des contenus, fluidité de la modération et sécurité de la plateforme.
 
+## 6. Risques et Stratégies d'Atténuation
 
----
+| Risques | Stratégies d'atténuation |
+|---|---|
+| Indisponibilité des contenus | Anticiper la collecte et prévoir des données de démonstration. |
+| Retard des sprints | Prioriser et décomposer les tâches. |
+| Évolution du périmètre | Faire valider les changements par le Product Owner. |
+| Problèmes de sécurité | Protéger les accès et contrôler les autorisations. |
